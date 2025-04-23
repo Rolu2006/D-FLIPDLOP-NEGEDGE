@@ -44,7 +44,7 @@ output reg Q;
 output reg Qbar; 
 initial Q=0;
 initial Qbar=1; 
-always @(posedge clk) 
+always @(negedge clk) 
 begin 
 Q=D; 
 Qbar=~D; 
@@ -53,11 +53,12 @@ endmodule
 ```
 **RTL LOGIC FOR FLIPFLOPS**
 
-![Screenshot 2025-04-20 162836](https://github.com/user-attachments/assets/eb868082-4d11-4bab-9001-03de3a8ed866)
 
 
 
 
+
+![Screenshot 2025-04-23 154323](https://github.com/user-attachments/assets/eed5112d-19bf-40df-9df7-0069bf68822a)
 
 
 
@@ -70,9 +71,9 @@ endmodule
 
 
 
-![Screenshot 2025-04-20 163113](https://github.com/user-attachments/assets/b271ea07-1b8f-4a6a-9f87-7a3505ecd089)
 
 
+![Screenshot 2025-04-23 154541](https://github.com/user-attachments/assets/e2f9b0b6-a953-4407-8153-02f003d1a493)
 
 
 
